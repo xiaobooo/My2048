@@ -1,2 +1,3 @@
 # My2048
-2048 game
+This is a web  2048 game
+Gameplay: use up and down to control the game.
