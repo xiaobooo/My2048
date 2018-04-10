@@ -43,7 +43,7 @@
 	height:460px;
 	padding:50px;
 	margin:5px auto;
-	background-color:#bbada0;
+	background-color:rgba(139,185,202,0.5);
 	border-radius:10px;
 	position:relative;
 }
@@ -52,7 +52,7 @@
 	width:100px;
 	height:100px;
 	border-radius:6px;
-	background-color:#ccc0b3;
+	background-color:rgba(147,201,235,0.5);
 	position:absolute;
 }
 .number-cell
