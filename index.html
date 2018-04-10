@@ -11,9 +11,20 @@
 <body background="img/img1.jpg" width:100%; height:100%;>
 
 <div class="header">
-    <h1>2048</h1>
-    <a href="javascript:newgame();" id="newgame"  onclick="newgame()">Start Again</a>
-    <p>Score:<span id="score">0</span></p>
+    <div id="button-cell">
+		<div class="button-cell">2048</div>
+		<div class="button-cell">4*4</div>
+    </div>
+    <a href="javascript:newgame();" id="newgame"  onclick="newgame()">重  新  开  始</a>
+    <div id="score-cell">
+		<div class="score-cell">分数</div>
+		<div class="button-cell"><span id="score">0</span></div>      
+		<!--  突显分数字体此处class并未出错 -->
+    </div>
+    <div id="hscore-cell">
+		<div class="hscore-cell">最高分数</div>
+		<div class="button-cell"><span id="score">0</span></div>
+    </div>
 </div>
 
 <div id="grid-container">

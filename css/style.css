@@ -6,35 +6,90 @@
 	width:100%;     /* 兼容移动端 */
 	text-align:center;
 }
-.header h1
+#button-cell
 {
-	font-family:Arial;
-	font-size:30px;
-	font-weight:bold;
-	color: #8f7a66;
+	width: 100px;
+	height: 120px;
+	padding: 10px;
+	margin: 2px auto;
+	background-color: rgba(239,202,26,0.8);
+	position: absolute;
+	left: 25px;
+	top: 150px;
+	border-radius: 10px;
 }
+.button-cell
+{
+	color: rgba(255,255,255,0.8);
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	position: relative;
+}
+
 .header #newgame
 {
 	display:block;
 	margin:0px auto;
-	width:100px;
+	width:230px;
 	padding:10px 10px;
-	background-color:#8f7a66;
-	font-family:Arial;
+	background-color:rgba(254,153,61,0.8);
+	font-family:sans-serif;
+	font-size: 18px;
 	color:white;
-	border-radius:10px;
 	text-decoration:none;
+	left: 160px;
+	top: 250px;
+	position: absolute;
+	border-radius:10px;
 }
 .header #newgame:hover
 {
-	background-color:#9f8b77;
+	background-color:rgb(254,153,61);
 }
-.header p
+#score-cell
 {
-	font-family:Arial;
-	font-size:20px;
-	margin:5px auto;
-	color: #8f7a66;
+	width: 100px;
+	height: 70px;
+	padding: 10px;
+	margin: 2px auto;
+	background-color: rgba(25,130,239,0.8);
+	position: absolute;
+	left: 160px;
+	top: 150px;
+	border-radius: 10px;
+}
+.score-cell
+{
+	color: rgba(255,255,255,0.8);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	position: relative;
+}
+
+#hscore-cell
+{
+	width: 100px;
+	height: 70px;
+	padding: 10px;
+	margin: 2px auto;
+	background-color: rgba(25,130,239,0.8);
+	position: absolute;
+	left: 295px;
+	top: 150px;
+	border-radius: 10px;
+}
+.hscore-cell
+{
+	color: rgba(255,255,255,0.8);
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
+	position: relative;
 }
 /* grid-container */
 #grid-container
@@ -43,6 +98,7 @@
 	height:460px;
 	padding:50px;
 	margin:5px auto;
+	top: 50px;
 	background-color:rgba(139,185,202,0.5);
 	border-radius:10px;
 	position:relative;
@@ -52,7 +108,7 @@
 	width:100px;
 	height:100px;
 	border-radius:6px;
-	background-color:rgba(147,201,235,0.5);
+	background-color:rgba(147,201,235,0.5);     /*  利用rgba设置颜色及透明度，防止牵连设置到子div的透明度*/
 	position:absolute;
 }
 .number-cell
