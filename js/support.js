@@ -261,3 +261,11 @@ function moveDown(){
     setTimeout("updateBoardView()",200);
     return true;
 }
+
+function share(){
+    alert("Share!");
+}
+
+function help(){
+    alert("Using the ↑ ↓ ← → 控制游戏进行!");
+}

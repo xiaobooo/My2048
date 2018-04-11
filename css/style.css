@@ -91,6 +91,44 @@
 	text-align: center;
 	position: relative;
 }
+.help
+{
+	width: 50px;
+	height: 50px;
+	background: url(../img/help.png);
+	background-size: 100% 100%;
+	border: 0;
+	opacity: 0.8;
+	left: 360px;
+	top: 300px;
+	position: absolute;
+}
+.music
+{
+	width: 50px;
+	height: 50px;
+	background: url(../img/music.png);
+	background-size: 100% 100%;
+	border: 0;
+	border-radius: 10px;
+	opacity: 0.8;
+	left: 295px;
+	top: 300px;
+	position: absolute;
+}
+.share
+{
+	width: 50px;
+	height: 50px;
+	background: url(../img/share2.png);
+	background-size: 100% 100%;
+	border-radius: 10px;
+	border: 0;
+	opacity: 0.8;
+	left: 230px;
+	top: 300px;
+	position: absolute;
+}
 /* grid-container */
 #grid-container
 {
