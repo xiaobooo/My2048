@@ -6,6 +6,28 @@
 	width:100%;     /* 兼容移动端 */
 	text-align:center;
 }
+.btn
+{
+	border: none;
+	width:100px;
+	background-color:rgba(25,130,239,0.1);
+	font-family:sans-serif;
+	font-size: 18px;
+	color: #ECEAEA;
+	float: right;
+	position: relative;
+	border-radius:5px;
+}
+a
+{ 
+	text-decoration: none;
+	color: #ECEAEA;
+}
+a:hover
+{
+	color: white;
+	text-decoration: none;
+}
 #button-cell
 {
 	width: 100px;
